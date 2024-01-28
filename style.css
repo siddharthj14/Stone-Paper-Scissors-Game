@@ -36,6 +36,7 @@ body {
   border: 3px solid #222831;
   background-color: #393e46;
   transition: all 0.3s ease;
+  user-select: none;
 }
 
 .move:hover {
@@ -62,7 +63,7 @@ body {
 }
 
 .result-container {
-  height: 17vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,12 +73,6 @@ body {
   font-size: 4vmin;
   font-weight: bold;
   color: #00adb5;
-}
-
-.footer {
-  color: black;
-  text-align: center;
-  height: 3vh;
 }
 
 @media(max-width: 500px) {
